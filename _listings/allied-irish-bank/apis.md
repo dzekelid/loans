@@ -14,9 +14,9 @@ tags:
 - Loans
 - ATMs
 - Accounts
-created: "2018-03-13"
-modified: "2018-03-13"
-url: https://raw.githubusercontent.com/streamdata-gallery/loans/master/_listings/allied-irish-bank/apis.yaml
+created: "2018-03-21"
+modified: "2018-03-21"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/loans/master/_listings/allied-irish-bank/apis.yaml
 specificationVersion: "0.14"
 apis:
 - name: Allied Irish Bank Public APIs
@@ -28,7 +28,7 @@ apis:
   tags: Loans
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/loans/master/_listings/allied-irish-bank/unsecured-sme-loans-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/loans/master/_listings/allied-irish-bank/unsecured-sme-loans-get.md
 x-common:
 - type: x-developer
   url: http://openbankingapis.io/Allied-Irish-Bank
