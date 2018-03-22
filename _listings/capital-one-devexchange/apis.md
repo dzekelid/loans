@@ -22,7 +22,7 @@ apis:
   tags: Loans
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/loans/master/_listings/capital-one-devexchange/loans-id-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/loans/master/_listings/capital-one-devexchange/loans-id-put.md
 x-common:
 - type: x-authentication
   url: https://developer.capitalone.com/platform-documentation/authorization-with-oauth-20/
