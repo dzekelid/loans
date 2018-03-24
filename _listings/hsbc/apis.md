@@ -17,8 +17,8 @@ tags:
 - UK Banks
 - Financial Services
 - ATMs
-created: "2018-03-21"
-modified: "2018-03-21"
+created: "2018-03-23"
+modified: "2018-03-23"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/loans/master/_listings/hsbc/apis.yaml
 specificationVersion: "0.14"
 apis:
