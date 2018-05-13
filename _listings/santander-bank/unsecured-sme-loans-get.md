@@ -1,9 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: Santander Bank
-  description: This is an OpenAPI definition for the standard set of Open Banking
-    (http://openbankingapis.io/) APIs for Santander Bank.
+  title: Santander Bank Get Unsecured SME Loans
+  description: This endpoint can contain multiple brands owned by a particular banking
+    group. Each brand can own multiple SME Unsecured Loan products.
   termsOfService: https://www.openbanking.org.uk/open-licence/
   contact:
     name: API Evangelist
