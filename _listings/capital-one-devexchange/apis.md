@@ -23,15 +23,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/loans/master/_listings/capital-one-devexchange/loans-id-delete.md
-- name: Capital One DevExchange Create a loan
-  description: Creates a loan where the account with the ID specified is debitted.
+- name: Capital One DevExchange Get loan by id
+  description: Returns the loan with the specific id
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/capitalone-devexchange.png
   humanURL: http://capitalone.com
   baseURL: https://api.reimaginebanking.com//
   tags: Loans
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/loans/master/_listings/capital-one-devexchange/accounts-id-loans-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/loans/master/_listings/capital-one-devexchange/loans-id-get.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/loans/master/_listings/capital-one-devexchange/loans-id-get-postman.md
 x-common:
 - type: x-authentication
   url: https://developer.capitalone.com/platform-documentation/authorization-with-oauth-20/
