@@ -1,9 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: Allied Irish Bank
-  description: This is an OpenAPI definition for the standard set of Open Banking
-    (http://openbankingapis.io/) APIs, covering the Allied Irish Bank APIs.
+  title: Allied Irish Bank Public APIs Get Unsecured SME Loans
+  description: This endpoint can contain multiple brands owned by a particular banking
+    group. Each brand can own multiple SME Unsecured Loan products.
   termsOfService: https://www.openbanking.org.uk/open-licence/
   contact:
     name: API Evangelist
