@@ -29,7 +29,27 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/loans/master/_listings/allied-irish-bank/unsecured-sme-loans-get.md
+- name: Allied Irish Bank Public APIs Get Unsecured SME Loans
+  description: This endpoint can contain multiple brands owned by a particular banking
+    group. Each brand can own multiple SME Unsecured Loan products.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/allied-irish-bank.jpeg
+  humanURL: https://aibgb.co.uk/
+  baseURL: https://openapi.aibgb.co.uk/open-banking/v2.1/
+  tags: Loans
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/loans/master/_listings/allied-irish-bank/unsecured-sme-loans-get.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/loans/master/_listings/allied-irish-bank/unsecured-sme-loans-get-postman.md
 x-common:
+- type: x-developer
+  url: http://openbankingapis.io/Allied-Irish-Bank
+- type: x-documentation
+  url: https://openbanking.atlassian.net/wiki/spaces/DZ/pages/54919225/Open+Data+API+Dashboard#
+- type: x-twitter
+  url: https://twitter.com/AIBGB
+- type: x-website
+  url: https://aibgb.co.uk/
 - type: x-developer
   url: http://openbankingapis.io/Allied-Irish-Bank
 - type: x-documentation
