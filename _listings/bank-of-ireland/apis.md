@@ -28,7 +28,27 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/loans/master/_listings/bank-of-ireland/unsecured-sme-loans-get.md
+- name: Bank of Ireland Get Unsecured Sme Loans
+  description: This endpoint can contain multiple brands owned by a particular banking
+    group. Each brand can own multiple SME Unsecured Loan products.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bank-of-ireland.jpg
+  humanURL: https://www.bankofireland.com/
+  baseURL: https://openapi.bankofireland.com/open-banking/v2.1/
+  tags: Loans
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/loans/master/_listings/bank-of-ireland/unsecured-sme-loans-get.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/loans/master/_listings/bank-of-ireland/unsecured-sme-loans-get-postman.md
 x-common:
+- type: x-developer
+  url: http://openbankingapis.io/ireland/bank-of-ireland
+- type: x-documentation
+  url: https://openbanking.atlassian.net/wiki/spaces/DZ/pages/54919225/Open+Data+API+Dashboard#
+- type: x-twitter
+  url: https://twitter.com/talktoBOI
+- type: x-website
+  url: https://www.bankofireland.com/
 - type: x-developer
   url: http://openbankingapis.io/ireland/bank-of-ireland
 - type: x-documentation
