@@ -28,7 +28,23 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/loans/master/_listings/bank-of-scotland/unsecured-sme-loans-get.md
+- name: Bank of Scotland Get Unsecured SME Loans
+  description: This endpoint can contain multiple brands owned by a particular banking
+    group. Each brand can own multiple SME Unsecured Loan products.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bank-of-scotland-logo.jpg
+  humanURL: https://www.bankofscotland.co.uk/
+  baseURL: https://api.bankofscotland.co.uk/open-banking/v2.1/
+  tags: Loans
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/loans/master/_listings/bank-of-scotland/unsecured-sme-loans-get.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/loans/master/_listings/bank-of-scotland/unsecured-sme-loans-get-postman.md
 x-common:
+- type: x-twitter
+  url: https://twitter.com/AskBankOfScot
+- type: x-website
+  url: https://www.bankofscotland.co.uk/
 - type: x-twitter
   url: https://twitter.com/AskBankOfScot
 - type: x-website
